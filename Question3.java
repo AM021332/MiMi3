@@ -23,7 +23,7 @@ class ThreadB implements Runnable{
 			System.out.println("Run!!!");
 			try{
 				c.sleep(1000);
-			}catch(Exception e){}
+			}catch (Exception e){}
 		}
 	}
 }
